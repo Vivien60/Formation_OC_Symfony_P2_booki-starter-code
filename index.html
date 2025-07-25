@@ -11,18 +11,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <div class="header">
+                <img class="header__logo" src="./images/logo/Booki.png" alt="Logo Booki">
+                <nav class="header__nav">
+                    <a class="header__nav-item--active" href="#section__hebergement">Hébergements</a>
+                    <a class="header__nav-item" href="#section__activites">Activités</a>
+                </nav>
+            </div>
+        </header>
         <main>
+            <section class="hebergements-search">
+                <header class="hebergements-search__header">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </header>
+                <div class="hebergements__search-bar">
+                    <div class="hebergements__search-bar--position"></div>
+                    <div class="hebergements__search-bar--text"></div>
+                    <div class="hebergements__search-bar--button"></div>
+                </div>
+            </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-
                 </section>
-                <section class="populaires">
+                <aside class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -86,7 +104,7 @@
                             </article>
                         </a>
                     </div>
-                </section>
+                </aside>
             </div>
         </main>
         <footer></footer>

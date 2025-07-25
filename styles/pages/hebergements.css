@@ -1,0 +1,12 @@
+.hebergements {
+}
+
+.hebergements__search-bar {
+    display: flex;
+    height: 3.063rem;
+}
+
+.hebergements__search-bar--position {
+    background: var(--main-bg-color) url('../../images/icons/position.svg') no-repeat 10px center;
+    width: 3.063rem;
+}
