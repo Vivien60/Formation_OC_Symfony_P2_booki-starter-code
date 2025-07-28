@@ -1,0 +1,28 @@
+.activites-at {
+    width: 100%;
+}
+
+.activites-at__cards {
+    display: flex;
+}
+
+.activites-at__cards a{
+    flex-basis: calc(25% - var(--cards-space-between)*3/4); /* la taille des cards ne prenant pas en compte le gap défini, il faut le mettre ici) */
+    box-sizing: border-box;
+}
+
+.activites-at__cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.activites-at__cards .card img {
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    border-top-left-radius: var(--cards-corner-radius);
+    border-top-right-radius: var(--cards-corner-radius);
+    max-width: 100%;
+    height: 380px;
+}
