@@ -1,0 +1,29 @@
+.cards-container__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-container {
+    gap: var(--cards-space-between);
+}
+.card-content {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.card-subtitle {
+    margin: 0;
+}
+
+.card-rating {
+    margin-bottom: 5px;
+}

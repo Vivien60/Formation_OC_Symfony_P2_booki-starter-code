@@ -7,27 +7,176 @@
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <div class="header">
+                <img class="header__logo" src="./images/logo/Booki.png" alt="Logo Booki">
+                <nav class="header__nav">
+                    <a class="header__nav-item--active" href="#section__hebergement">Hébergements</a>
+                    <a class="header__nav-item" href="#section__activites">Activités</a>
+                </nav>
+            </div>
+        </header>
         <main>
+            <section class="hebergements-search">
+                <header class="hebergements-search__header">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </header>
+                <div class="hebergements-search__bar">
+                    <a href="#" class="hebergements-search__bar--position"></a>
+                    <input class="hebergements-search__bar--input" type="text">
+                    <button class="hebergements-search__bar--submit">Rechercher</button>
+                </div>
+                <nav class="hebergements-search__filters">
+                    <label class="hebergements-search__filters--title">Filtres</label>
+                    <a href="#" class="hebergements-search__filter"><i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i><p>Économique</p></a>
+                    <a href="#" class="hebergements-search__filter"><i class="fa-solid fa-person" aria-hidden="true"></i><p>Familial</p></a>
+                    <a href="#" class="hebergements-search__filter"><i class="fa-solid fa-heart" aria-hidden="true"></i><p>Romantique</p></a>
+                    <a href="#" class="hebergements-search__filter"><i class="fa-solid fa-fire" aria-hidden="true"></i>Nos pépites</a>
+                </nav>
+                <footer>
+                    <span class="info">&nbsp;</span> <span>Plus de 500 logements sont disponibles dans cette ville</span>
+                </footer>
+            </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-
+                    <header class="cards-container__header">
+                        <h2 class="section-title">Hébergements à Marseille</h2>
+                    </header>
+                    <div class="cards-container hebergements-cards">
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel du port</h3>
+                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <footer class="hebergements__footer">
+                        <div class="hebergements__footer--text"><h3><a href="#">Afficher plus</a></h3></div>
+                    </footer>
                 </section>
-                <section class="populaires">
-                    <div class="populaires-title">
+                <aside class="populaires">
+                    <div class="cards-container__header">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
-                    <div class="populaires-cards">
+                    <div class="cards-container populaires-cards">
                         <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -86,10 +235,74 @@
                             </article>
                         </a>
                     </div>
-                </section>
+                </aside>
             </div>
+            <aside class="activites-at">
+                <header class="cards-container__header">
+                    <h2>Activités à Marseille</h2>
+                </header>
+                <div class="cards-container activites-at__cards">
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de l'activité montrant le paysage">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Vieux-Port</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de l'activité montrant le paysage">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Vieux-Port</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de l'activité montrant le paysage">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Vieux-Port</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de l'activité montrant le paysage">
+                            <div class="card-content">
+                                <div class="card-txt">
+                                    <h3 class="card-title">Vieux-Port</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </aside>
         </main>
-        <footer></footer>
+        <footer class="footer">
+            <div class="footer__column">
+                <h2>A propos</h2>
+                <div>Fonctionnement du site</div>
+                <div>Conditions générales </div>
+                <div>Données et confidentialité</div>
+            </div>
+            <div class="footer__column">
+                <h2>Nos hébergements</h2>
+                <div>Charte qualité</div>
+                <div>Proposer votre hôtel</div>
+            </div>
+            <div class="footer__column">
+                <h2>Assistance</h2>
+                <div>Centre d’aide</div>
+                <div>Nous contacter</div>
+            </div>
+        </footer>
     </div>
 </body>
 
