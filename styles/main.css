@@ -36,6 +36,11 @@
 
     --cards-space-between:30px;
     --cards-corner-radius:20px;
+
+    --default-margin-inside-v-bottom: 30px;
+    --default-margin-outside-v-top: 35px;
+
+    --default-padding-text-v: 15px;
 }
 
 .fa-solid {
@@ -53,6 +58,10 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+main {
+    margin-top: 30px;
 }
 
 a {
@@ -99,10 +108,6 @@ input {
     padding: 30px;
     box-sizing: border-box;
 }
-
-
-
-
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

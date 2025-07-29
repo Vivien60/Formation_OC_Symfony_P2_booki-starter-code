@@ -1,12 +1,18 @@
 .activites-at {
+    margin-top: var(--default-margin-outside-v-top);
+    padding: 30px;
     width: 100%;
+    box-sizing: border-box;
 }
 
+.activites-at h2 {
+    margin: 0 0 var(--default-margin-inside-v-bottom) 0;
+}
 .activites-at__cards {
     display: flex;
 }
 
-.activites-at__cards a{
+.activites-at__cards a {
     flex-basis: calc(25% - var(--cards-space-between)*3/4); /* la taille des cards ne prenant pas en compte le gap défini, il faut le mettre ici) */
     box-sizing: border-box;
 }
@@ -15,6 +21,10 @@
     display: flex;
     flex-direction: column;
     padding: 0;
+}
+
+.activites-at__cards .card .card-content {
+    padding: var(--default-padding-text-v) 19px;
 }
 
 .activites-at__cards .card img {

@@ -1,4 +1,4 @@
-nav {
+.appBar nav {
     height: 100%;
 }
 /*
@@ -19,11 +19,10 @@ TODO : radius search bar
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 12.75rem;
-    height: 2.188rem;
     box-sizing: border-box;
     padding: 0;
     align-self: start;
+    gap: 68px;
 }
 
 .header__nav-item, .header__nav-item--active {
