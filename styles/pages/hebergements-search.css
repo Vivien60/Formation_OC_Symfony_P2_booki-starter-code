@@ -16,6 +16,10 @@
     margin-bottom: 35px;
 }
 
+.hebergements-search__header h2 {
+    margin-bottom: 8px;
+}
+
 .hebergements-search__bar > * {
     flex:           1 100%;
     padding:        14px 0;
@@ -54,9 +58,6 @@
     width:          fit-content;
 }
 
-.hebergements-search__filters--title {
-}
-
 .hebergements-search__filter {
     display:        flex;
     height:         3.125rem;
@@ -66,12 +67,16 @@
     vertical-align: middle;
     border:         2px solid var(--filter-border-color);
     border-radius:  1.513rem;
-    margin-left:    0.625rem;
+    margin-left:    15px;
     font-size:      var(--filter-font-size);
 }
 
 a.hebergements-search__filter:hover {
     background-color: var(--filter-bg-color);
+}
+
+.hebergements-search__filter .fa-2x {
+    font-size: 1.225rem;
 }
 
 .info {
