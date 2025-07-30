@@ -28,7 +28,7 @@
 }
 
 .card-content {
-    font-size: var(--information-size);
+    font-size: var(--card-font-size);
     padding-left: 15px;
     display: flex;
     flex-direction: column;
