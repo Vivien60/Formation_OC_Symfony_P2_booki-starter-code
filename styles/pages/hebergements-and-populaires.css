@@ -59,7 +59,7 @@
 }
 
 .hebergements-cards img {
-    height: 124px;
+    height: 114px;
     border-top-left-radius: var(--cards-corner-radius);
     border-top-right-radius: var(--cards-corner-radius);
     margin-bottom: 5px;
@@ -70,7 +70,7 @@
 }
 
 .hebergements__footer {
-    margin-top: var(--default-margin-outside-v-top);
+    margin-top: 30px;
 }
 
 .hebergements__footer--title {
