@@ -25,13 +25,13 @@ TODO : radius search bar
     gap: 68px;
 }
 
-.header__nav-item, .header__nav-item--active {
+.header__nav-item {
     box-sizing: border-box;
     padding-top: 10px;
     height: 35px;
 }
 
-.header__nav-item--active {
+.header__nav-item:hover, .header__nav-item:focus {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
     padding-top: 8px;
