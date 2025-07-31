@@ -53,8 +53,9 @@
 
 .hebergements-search__filters {
     display:        flex;
-    align-items: center;
-    font-weight:    var(--filter-font-weight);
+    align-items:    center;
+    font-size:      var(--filter-font-size);
+    font-weight:    var(--filter-text-weight);
     width:          fit-content;
 }
 
@@ -68,7 +69,6 @@
     border:         2px solid var(--filter-border-color);
     border-radius:  1.513rem;
     margin-left:    15px;
-    font-size:      var(--filter-font-size);
 }
 
 a.hebergements-search__filter:hover {
@@ -76,11 +76,18 @@ a.hebergements-search__filter:hover {
 }
 
 .hebergements-search__filter .fa-2x {
+    /* VG : Resize pour respecter précisément la maquette Figma, sur laquelle la taille des icônes est de 22px,
+    taille non disponible sur les resize standards de Font-Awesome
+    */
     font-size: 1.225rem;
 }
 
 .info {
     display: inline-block;
+    /* VG : Petit hack/contournement :
+    il semble impossible d'afficher cette icône telle que demandée en Font-Awesome version free
+    J'ai donc préféré l'exporter en svg depuis la maquette. Suis-je passé à coté de quelque-chose ?
+     */
     background: url('../../images/icons/info-circle.svg') no-repeat center;
     width:2rem;
     height:2rem;
