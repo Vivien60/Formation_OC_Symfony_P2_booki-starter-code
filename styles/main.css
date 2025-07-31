@@ -14,13 +14,13 @@
 }
 
 :root {
-    --information-size: 1rem;
-    --title-size: 1rem;
-    --search-font-size: 1.125rem;
-    --filter-title-font-size: 1.125rem;
-    --filter-font-size: 1.063rem;
-    --section-font-size: 1.375rem;
-    --card-font-size: 0.875rem;
+    --information-size: 16px;
+    --title-size: 16px;
+    --search-font-size: 18px;
+    --filter-title-font-size: 18px;
+    --filter-font-size: 17px;
+    --section-font-size: 22px;
+    --card-font-size: 14px;
 
     --information-weight: 400;
     --filter-text-weight: 700;

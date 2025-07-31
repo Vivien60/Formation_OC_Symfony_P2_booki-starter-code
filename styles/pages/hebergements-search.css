@@ -4,8 +4,8 @@
 .hebergements-search__bar {
     display:        flex;
     width:          377px;
-    border-radius:  0.978rem;
-    border:         0.063rem solid var(--main-bg-color);
+    border-radius:  16px;
+    border:         1px solid var(--main-bg-color);
 }
 
 .hebergements-search h2, .hebergements-search p {
@@ -29,9 +29,9 @@
 
 .hebergements-search__bar--position {
     flex-shrink:    0;
-    flex-basis:     3.063rem;
+    flex-basis:     49px;
     background:     var(--main-bg-color) url('../../images/icons/position.svg') no-repeat center;
-    border-radius:  0.978rem 0 0 0.978rem;
+    border-radius:  16px 0 0 16px;
     font-weight:    var(--search-font-weight);
 }
 
@@ -43,9 +43,9 @@
 
 .hebergements-search__bar--submit {
     flex-shrink:    0;
-    flex-basis:     8.25rem;
+    flex-basis:     132px;
     background:     var(--main-color);
-    border-radius:  0 0.978rem 0.978rem 0;
+    border-radius:  0 16px 16px 0;
     color:          var(--white);
     font-size:      var(--search-font-size);
     font-weight:    var(--search-font-weight);
@@ -61,13 +61,13 @@
 
 .hebergements-search__filter {
     display:        flex;
-    height:         3.125rem;
+    height:         50px;
     padding:        0 19px;
     gap:            10px;
     align-items:    center;
     vertical-align: middle;
     border:         2px solid var(--filter-border-color);
-    border-radius:  1.513rem;
+    border-radius:  24px;
     margin-left:    15px;
 }
 
@@ -79,7 +79,7 @@ a.hebergements-search__filter:hover {
     /* VG : Resize pour respecter précisément la maquette Figma, sur laquelle la taille des icônes est de 22px,
     taille non disponible sur les resize standards de Font-Awesome
     */
-    font-size: 1.225rem;
+    font-size: 20px;
 }
 
 .info {
@@ -89,7 +89,7 @@ a.hebergements-search__filter:hover {
     J'ai donc préféré l'exporter en svg depuis la maquette. Suis-je passé à coté de quelque-chose ?
      */
     background: url('../../images/icons/info-circle.svg') no-repeat center;
-    width:2rem;
-    height:2rem;
-    line-height: 2rem;
+    width:32px;
+    height:32px;
+    line-height: 32px;
 }

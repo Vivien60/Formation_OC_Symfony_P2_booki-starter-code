@@ -8,11 +8,11 @@ TODO : radius search bar
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4.938rem;
+    height: 79px;
 }
 
 .header__logo {
-    width: 3.818rem;
+    width: 61px;
 }
 
 .header__nav {
@@ -27,12 +27,12 @@ TODO : radius search bar
 
 .header__nav-item, .header__nav-item--active {
     box-sizing: border-box;
-    padding-top: 0.625rem;
-    height: 2.188rem;
+    padding-top: 10px;
+    height: 35px;
 }
 
 .header__nav-item--active {
     color: var(--main-color);
-    border-top: 0.125rem solid var(--main-color);
-    padding-top: 0.5rem;
+    border-top: 2px solid var(--main-color);
+    padding-top: 8px;
 }
