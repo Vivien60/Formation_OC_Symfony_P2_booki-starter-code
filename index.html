@@ -7,6 +7,7 @@
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" >
@@ -19,13 +20,13 @@
             <div class="header">
                 <img class="header__logo" src="./images/logo/Booki.png" alt="Logo Booki">
                 <nav class="header__nav">
-                    <a class="header__nav-item--active" href="#section__hebergement">Hébergements</a>
+                    <a class="header__nav-item" href="#section__hebergement">Hébergements</a>
                     <a class="header__nav-item" href="#section__activites">Activités</a>
                 </nav>
             </div>
         </header>
         <main>
-            <search class="hebergements-search">
+            <search class="hebergements-search" id="section__hebergement">
                 <header class="hebergements-search__header">
                     <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
@@ -237,7 +238,7 @@
                     </div>
                 </aside>
             </div>
-            <aside class="activites-at">
+            <aside class="activites-at" id="section__activites">
                 <header class="cards-container__header">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </header>
@@ -286,7 +287,7 @@
             </aside>
         </main>
         <footer class="footer">
-            <nav class="footer__nav">
+            <nav class="footer__nav flex-h">
                 <div class="footer__column">
                     <h3>A propos</h3>
                     <div>
