@@ -1,8 +1,11 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
     background-color: var(--main-bg-color);
     margin-top: var(--default-margin-outside-v-top);
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__column {

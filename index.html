@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" >
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
             </div>
         </header>
         <main>
-            <section class="hebergements-search">
+            <search class="hebergements-search">
                 <header class="hebergements-search__header">
                     <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
@@ -35,17 +35,17 @@
                     <input class="hebergements-search__bar--input" type="text" value="Marseille, France">
                     <button class="hebergements-search__bar--submit">Rechercher</button>
                 </div>
-                <nav class="hebergements-search__filters">
+                <div class="hebergements-search__filters">
                     <h3 class="filter--title">Filtres</h3>
                     <a href="#" class="hebergements-search__filter"><i class="fa-2x fa-solid fa-money-bill-wave" aria-hidden="true"></i><p>Économique</p></a>
                     <a href="#" class="hebergements-search__filter"><i class="fa-2x fa-solid fa-person" aria-hidden="true"></i><p>Familial</p></a>
                     <a href="#" class="hebergements-search__filter"><i class="fa-2x fa-solid fa-heart" aria-hidden="true"></i><p>Romantique</p></a>
                     <a href="#" class="hebergements-search__filter"><i class="fa-2x fa-solid fa-fire" aria-hidden="true"></i>Nos pépites</a>
-                </nav>
+                </div>
                 <footer>
                     <span class="info">&nbsp;</span> <span>Plus de 500 logements sont disponibles dans cette ville</span>
                 </footer>
-            </section>
+            </search>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <header class="cards-container__header">
@@ -286,28 +286,30 @@
             </aside>
         </main>
         <footer class="footer">
-            <div class="footer__column">
-                <h3>A propos</h3>
-                <div>
-                    <p><a href="#">Fonctionnement du site</a></p>
-                    <p><a href="#">Conditions générales </a></p>
-                    <p><a href="#">Données et confidentialité</a></p>
+            <nav class="footer__nav">
+                <div class="footer__column">
+                    <h3>A propos</h3>
+                    <div>
+                        <p><a href="#">Fonctionnement du site</a></p>
+                        <p><a href="#">Conditions générales </a></p>
+                        <p><a href="#">Données et confidentialité</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="footer__column">
-                <h3>Nos hébergements</h3>
-                <div>
-                    <p><a href="#">Charte qualité</a></p>
-                    <p><a href="#">Proposer votre hôtel</a></p>
+                <div class="footer__column">
+                    <h3>Nos hébergements</h3>
+                    <div>
+                        <p><a href="#">Charte qualité</a></p>
+                        <p><a href="#">Proposer votre hôtel</a></p>
+                    </div>
                 </div>
+                <div class="footer__column">
+                    <h3>Assistance</h3>
+                    <div>
+                        <p><a href="#">Centre d’aide</a></p>
+                        <p><a href="#">Nous contacter</a></p>
+                    </div>
             </div>
-            <div class="footer__column">
-                <h3>Assistance</h3>
-                <div>
-                    <p><a href="#">Centre d’aide</a></p>
-                    <p><a href="#">Nous contacter</a></p>
-                </div>
-            </div>
+            </nav>
         </footer>
     </div>
 </body>
