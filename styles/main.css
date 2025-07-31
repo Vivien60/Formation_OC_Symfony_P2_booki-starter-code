@@ -14,21 +14,20 @@
 }
 
 :root {
-    --information-size: 1rem;
-    --title-size: 1rem;
-    --search-font-size: 1.125rem;
-    --filter-title-font-size: 1.125rem;
-    --filter-font-size: 1.063rem;
-    --section-font-size: 1.375rem;
-    --card-font-size: 0.875rem;
+    --information-size: 16px;
+    --title-size: 16px;
+    --search-font-size: 18px;
+    --filter-title-font-size: 18px;
+    --filter-font-size: 17px;
+    --section-font-size: 22px;
+    --card-font-size: 14px;
 
-    --main-font-weight: 400;
-    --filter-font-weight: 700;
+    --information-weight: 400;
+    --filter-text-weight: 700;
     --search-font-weight: 700;
     --card-font-weight: 700;
 
     /* FONT WEIGHTS */
-    --information-weight: 400;
     --filterText-weight: 400;
     --title-weight: 600;
     --filter-weight: 400;
@@ -74,6 +73,7 @@ body {
 .main-container {
     width:              100%;
     max-width:          1440px;
+    min-width:          1025px;
     padding:            0 50px;
     box-sizing:         border-box;
 }
