@@ -25,18 +25,6 @@
     --information-weight: 400;
     --filter-text-weight: 700;
     --search-font-weight: 700;
-    --card-font-weight: 700;
-
-    /* FONT WEIGHTS */
-    --filterText-weight: 400;
-    --title-weight: 600;
-    --filter-weight: 400;
-    --section-weight: 600;
-    --card-weight: 400;
-    --footer-weight: 400;
-    --link-weight: 400;
-    --nav-weight: 400;
-    --standard-weight: 400;
 
     --main-color: #0065FC;
     --filter-color: #0065FC;
@@ -111,8 +99,8 @@ input {
 .flex-h {
     display:            flex;
     flex-direction:     row;
-    gap:                var(--cards-space-between);
     flex-wrap:          wrap;
+    gap:                var(--cards-space-between);
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

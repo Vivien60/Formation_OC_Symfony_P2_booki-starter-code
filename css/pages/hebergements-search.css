@@ -25,6 +25,8 @@
     padding:        14px 0;
     border:         0;
     border-block:   0;
+    font-weight:    var(--search-font-weight);
+    font-size:      var(--search-font-size);
 }
 
 .hebergements-search__bar--position {
@@ -32,11 +34,9 @@
     flex-basis:     49px;
     background:     var(--main-bg-color) url('../../images/icons/position.svg') no-repeat center;
     border-radius:  16px 0 0 16px;
-    font-weight:    var(--search-font-weight);
 }
 
 .hebergements-search__bar--input {
-    font-weight:    var(--search-font-weight);
     font-size:      var(--search-font-size);
     text-align:     center;
 }
@@ -47,8 +47,6 @@
     background:     var(--main-color);
     border-radius:  0 16px 16px 0;
     color:          var(--white);
-    font-size:      var(--search-font-size);
-    font-weight:    var(--search-font-weight);
 }
 
 .hebergements-search__filters {
