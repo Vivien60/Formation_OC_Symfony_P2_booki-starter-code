@@ -87,7 +87,12 @@ a.hebergements-search__filter:hover {
     J'ai donc préféré l'exporter en svg depuis la maquette. Suis-je passé à coté de quelque-chose ?
      */
     background: url('../../images/icons/info-circle.svg') no-repeat center;
-    width:32px;
-    height:32px;
-    line-height: 32px;
+    width:24px;
+    height:24px;
+    line-height: 24px;
+    margin-left: -1px;
+}
+
+.info__text {
+    margin-left: 10px;
 }
