@@ -7,6 +7,11 @@
     justify-content: space-between;
 }
 
+.footer__nav.flex-h {
+    gap:0;
+
+}
+
 .footer__column {
     padding: 20px;
     width: calc(100% / 3);
