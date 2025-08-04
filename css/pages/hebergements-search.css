@@ -12,7 +12,7 @@
     margin: 0;
 }
 
-.hebergements-search > * {
+.hebergements-search > *, .hebergements-search section > * {
     margin-bottom: 35px;
 }
 
@@ -20,7 +20,7 @@
     margin-bottom: 8px;
 }
 
-.hebergements-search__bar > * {
+.hebergements-search__bar > *  {
     flex:           1 100%;
     padding:        14px 0;
     border:         0;
