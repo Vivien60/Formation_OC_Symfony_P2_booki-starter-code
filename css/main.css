@@ -102,6 +102,16 @@ input {
     gap:                var(--cards-space-between);
 }
 
+ul {
+    list-style:         none;
+    margin:             0;
+    padding:            0;
+}
+
+.flex-h > li {
+    display:            inline-block;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

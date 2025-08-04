@@ -16,12 +16,19 @@ TODO : radius search bar
 }
 
 .header__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     box-sizing: border-box;
     padding: 0;
     align-self: start;
+}
+
+.header__nav--list.flex-h {
+    gap:68px;
+}
+
+.header__nav--list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 68px;
 }
 

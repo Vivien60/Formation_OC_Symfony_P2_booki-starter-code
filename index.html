@@ -20,8 +20,10 @@
             <div class="header">
                 <img class="header__logo" src="./images/logo/Booki.png" alt="Logo Booki">
                 <nav class="header__nav">
-                    <a class="header__nav-item" href="#section__hebergement">Hébergements</a>
-                    <a class="header__nav-item" href="#section__activites">Activités</a>
+                    <ul class="flex-h header__nav--list">
+                        <li class="header__nav-item"><a href="#section__hebergement">Hébergements</a></li>
+                        <li class="header__nav-item"><a href="#section__activites">Activités</a></li>
+                    </ul>
                 </nav>
             </div>
         </header>
@@ -289,29 +291,31 @@
             </section>
         </main>
         <footer class="footer">
-            <nav class="footer__nav flex-h">
-                <div class="footer__column">
-                    <h3>A propos</h3>
-                    <div>
-                        <p><a href="#">Fonctionnement du site</a></p>
-                        <p><a href="#">Conditions générales </a></p>
-                        <p><a href="#">Données et confidentialité</a></p>
-                    </div>
-                </div>
-                <div class="footer__column">
-                    <h3>Nos hébergements</h3>
-                    <div>
-                        <p><a href="#">Charte qualité</a></p>
-                        <p><a href="#">Proposer votre hôtel</a></p>
-                    </div>
-                </div>
-                <div class="footer__column">
-                    <h3>Assistance</h3>
-                    <div>
-                        <p><a href="#">Centre d’aide</a></p>
-                        <p><a href="#">Nous contacter</a></p>
-                    </div>
-            </div>
+            <nav>
+                <ul class="footer__nav flex-h">
+                    <li class="footer__column">
+                        <h3>A propos</h3>
+                        <ul class="footer__column--list">
+                            <li class="footer__column--item"><a href="#">Fonctionnement du site</a></li>
+                            <li class="footer__column--item"><a href="#">Conditions générales </a></li>
+                            <li class="footer__column--item"><a href="#">Données et confidentialité</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__column">
+                        <h3>Nos hébergements</h3>
+                        <ul class="footer__column--list">
+                            <li class="footer__column--item"><a href="#">Charte qualité</a></li>
+                            <li class="footer__column--item"><a href="#">Proposer votre hôtel</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer__column">
+                        <h3>Assistance</h3>
+                        <ul class="footer__column--list">
+                            <li class="footer__column--item"><a href="#">Centre d’aide</a></li>
+                            <li class="footer__column--item"><a href="#">Nous contacter</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
         </footer>
     </div>

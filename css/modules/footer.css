@@ -18,17 +18,10 @@
     box-sizing: border-box;
 }
 
-.footer__column div {
-    display: flex;
-    flex-direction: column;
-    gap: var(--default-padding-text-v);
-}
-
-.footer__column p {
-    margin:0;
-}
-
 .footer__column h3 {
     margin:0;
-    padding-bottom: var(--default-padding-text-v);
+}
+
+.footer__column--list .footer__column--item {
+    padding-top: var(--default-padding-text-v);
 }

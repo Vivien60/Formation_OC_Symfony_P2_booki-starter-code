@@ -21,7 +21,12 @@
 }
 
 .activites-at__cards .card .card-content {
-    padding: var(--default-padding-text-v) 19px;
+    padding: 20px 19px;
+}
+
+.activites-at__cards .card .card-title {
+    margin: 0;
+    font-size: var(--information-size);
 }
 
 .activites-at__cards .card img {
