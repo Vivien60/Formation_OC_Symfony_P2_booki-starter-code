@@ -1,98 +1,98 @@
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+/****** lodging And populars ***********/
+.lodging-and-populars {
     display: flex;
     justify-content: space-between;
 }
 
-.hebergements-and-populaires section, .hebergements-and-populaires aside {
+.lodging-and-populars section, .lodging-and-populars aside {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
 
-/****** Populaires ***********/
-.populaires {
+/****** populars ***********/
+.populars {
     width: 32%;
 }
 
-.populaires-cards .card {
+.populars-cards .card {
    margin-top: var(--cards-space-between);
 }
 
-.populaires-cards img {
+.populars-cards img {
     width: 33%;
     height: 136px;
     border-top-left-radius: var(--cards-corner-radius);
     border-bottom-left-radius: var(--cards-corner-radius);
 }
 
-.populaires-cards .card-content {
+.populars-cards .card-content {
     width: 67%;
 }
 
-/****** Hebergements ***********/
-.hebergements {
+/****** lodging ***********/
+.lodging {
     width: 65%;
 }
 
-.hebergements h3 {
+.lodging h3 {
     margin: 0;
 }
 
-.hebergements-cards a{
+.lodging-cards a{
     flex-basis: calc(33% - var(--cards-space-between)*2/3); /* la taille des cards ne prenant pas en compte le gap défini, il faut le mettre ici) */
     box-sizing: border-box;
 }
 
-.hebergements-cards .card {
+.lodging-cards .card {
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
 }
 
-.hebergements-cards .card .flex-gap-v-card-mini {
+.lodging-cards .card .flex-gap-v-card-mini {
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-top: 4px;
 }
 
-.hebergements-cards img {
+.lodging-cards img {
     height: 114px;
     border-top-left-radius: var(--cards-corner-radius);
     border-top-right-radius: var(--cards-corner-radius);
     margin-bottom: 5px;
 }
 
-.hebergements-cards .card-content {
+.lodging-cards .card-content {
     width: 100%;
 }
 
-.hebergements__footer {
+.lodging__footer {
     margin-top: 30px;
 }
 
-.hebergements__footer--title {
+.lodging__footer--title {
     font-size: var(--filter-title-font-size);
 }
 
 @media (max-width: 1024px) {
-    .populaires-cards {
+    .populars-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .populaires-cards a {
+    .populars-cards a {
         width: 30%;
     }
 
-    .populaires-cards .card-title {
+    .populars-cards .card-title {
         font-size: 14px;
     }
 
-    .populaires-cards .card-subtitle {
+    .populars-cards .card-subtitle {
         font-size: 13px;
     }
 }

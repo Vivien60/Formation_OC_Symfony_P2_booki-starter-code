@@ -3,8 +3,8 @@
 @import "modules/cards-and-card.css";
 @import "modules/footer.css";
 /******** Pages ***********/
-@import "pages/hebergements-search.css";
-@import "pages/hebergements-and-populaires.css";
+@import "pages/lodging-search.css";
+@import "pages/lodging-and-populars.css";
 @import "pages/activity-at.css";
 
 /****** General ***********/
@@ -117,15 +117,15 @@ ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .hebergements-and-populaires {
+    .lodging-and-populars {
         flex-direction: column;
     }
 
-    .hebergements {
+    .lodging {
         width:          100%;
     }
 
-    .populaires {
+    .populars {
         width:          100%;
         margin-top:     50px;
     }

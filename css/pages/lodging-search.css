@@ -1,26 +1,26 @@
-.hebergements {
+.lodging {
 }
 
-.hebergements-search__bar {
+.lodging-search__bar {
     display:        flex;
     width:          377px;
     border-radius:  16px;
     border:         1px solid var(--main-bg-color);
 }
 
-.hebergements-search h2, .hebergements-search p {
+.lodging-search h2, .lodging-search p {
     margin: 0;
 }
 
-.hebergements-search > *, .hebergements-search section > * {
+.lodging-search > *, .lodging-search section > * {
     margin-bottom: 35px;
 }
 
-.hebergements-search__header h2 {
+.lodging-search__header h2 {
     margin-bottom: 8px;
 }
 
-.hebergements-search__bar > *  {
+.lodging-search__bar > *  {
     flex:           1 100%;
     padding:        14px 0;
     border:         0;
@@ -29,19 +29,19 @@
     font-size:      var(--search-font-size);
 }
 
-.hebergements-search__bar--position {
+.lodging-search__bar--position {
     flex-shrink:    0;
     flex-basis:     49px;
     background:     var(--main-bg-color) url('../../images/icons/position.svg') no-repeat center;
     border-radius:  16px 0 0 16px;
 }
 
-.hebergements-search__bar--input {
+.lodging-search__bar--input {
     font-size:      var(--search-font-size);
     text-align:     center;
 }
 
-.hebergements-search__bar--submit {
+.lodging-search__bar--submit {
     flex-shrink:    0;
     flex-basis:     132px;
     background:     var(--main-color);
@@ -49,7 +49,7 @@
     color:          var(--white);
 }
 
-.hebergements-search__filters {
+.lodging-search__filters {
     display:        flex;
     align-items:    center;
     font-size:      var(--filter-font-size);
@@ -57,7 +57,7 @@
     width:          fit-content;
 }
 
-.hebergements-search__filter {
+.lodging-search__filter {
     display:        flex;
     height:         50px;
     padding:        0 19px;
@@ -69,11 +69,11 @@
     margin-left:    15px;
 }
 
-a.hebergements-search__filter:hover {
+a.lodging-search__filter:hover {
     background-color: var(--filter-bg-color);
 }
 
-.hebergements-search__filter .fa-2x {
+.lodging-search__filter .fa-2x {
     /* VG : Resize pour respecter précisément la maquette Figma, sur laquelle la taille des icônes est de 22px,
     taille non disponible sur les resize standards de Font-Awesome
     */
