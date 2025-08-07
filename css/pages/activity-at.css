@@ -1,35 +1,35 @@
-.activites-at {
+.activities-at {
     margin-top: var(--default-margin-outside-v-top);
     padding: 30px;
     width: 100%;
     box-sizing: border-box;
 }
 
-.activites-at__cards {
+.activities-at__cards {
     display: flex;
 }
 
-.activites-at__cards a {
+.activities-at__cards a {
     flex-basis: calc(25% - var(--cards-space-between)*3/4); /* la taille des cards ne prenant pas en compte le gap défini, il faut le mettre ici) */
     box-sizing: border-box;
 }
 
-.activites-at__cards .card {
+.activities-at__cards .card {
     display: flex;
     flex-direction: column;
     padding: 0;
 }
 
-.activites-at__cards .card .card-content {
+.activities-at__cards .card .card-content {
     padding: 20px 19px;
 }
 
-.activites-at__cards .card .card-title {
+.activities-at__cards .card .card-title {
     margin: 0;
     font-size: var(--information-size);
 }
 
-.activites-at__cards .card img {
+.activities-at__cards .card img {
     overflow: hidden;
     position: relative;
     z-index: 999;
