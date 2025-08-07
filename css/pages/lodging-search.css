@@ -12,7 +12,7 @@
     margin: 0;
 }
 
-.lodging-search > *, .lodging-search section > * {
+.lodging-search > *, .lodging-search .lodging-search__fields > * {
     margin-bottom: 35px;
 }
 
