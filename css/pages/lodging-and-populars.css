@@ -43,6 +43,9 @@
 .lodging-cards a{
     flex-basis: calc(33% - var(--cards-space-between)*2/3); /* la taille des cards ne prenant pas en compte le gap défini, il faut le mettre ici) */
     box-sizing: border-box;
+    width: calc(33% - var(--cards-space-between)*2/3);;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .lodging-cards .card {

@@ -42,3 +42,7 @@
 .card-rating {
     margin-bottom: 5px;
 }
+
+.card .sr-only {
+    display: none;
+}
